@@ -18,11 +18,10 @@ These APIs are designed for:
 * Enthusiasts seeking deep energy data insights
 * Utility companies deploying smart metering solutions
 
-## Use the links below to explore the available guides.
+## GreenGrid API Docs
 
-<h1>GreenGrid API Docs</h1>
 <ul>
   {% for doc in site.docs %}
-    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+    <li><a href="{{ doc | relative_url }}">{{ doc.title }}</a></li>
   {% endfor %}
 </ul>
