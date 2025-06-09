@@ -5,7 +5,7 @@
 layout: home
 ---
 
-## Welcome to the GreenGrid API documentation site.
+## API Docs Home
 GreenGrid’s APIs help you unlock the full power of smart energy tools. Whether you’re building dashboards, syncing with smart meters, or exploring real-time usage data, our APIs provide secure, scalable access to the insights you need.
 
 Why use GreenGrid APIs?
@@ -19,5 +19,10 @@ These APIs are designed for:
 * Utility companies deploying smart metering solutions
 
 ## Use the links below to explore the available guides.
-- [API Overview]({{ site.baseurl }}/docs/api-overview/)
-- [Authentication Guide]({{ site.baseurl }}/docs/authentication/)
+
+<h1>GreenGrid API Docs</h1>
+<ul>
+  {% for doc in site.docs %}
+    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+  {% endfor %}
+</ul>
