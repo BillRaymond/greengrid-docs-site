@@ -4,9 +4,3 @@
 
 layout: home
 ---
-
-Welcome to the GreenGrid API documentation site. Use the links below to explore the available guides.
-
-- [API Overview]({{ site.baseurl }}/docs/api-overview/)
-- [Authentication Guide]({{ site.baseurl }}/docs/authentication/)
-
