@@ -4,19 +4,14 @@
 
 layout: home
 ---
+> This website is a fictional project created for the [AI Workshop for Content Creators](). It was designed to demonstrate documentation best practices using synthetic examples. Learn more at [BillTalksAI.com](https://www.BillTalksAI.com).
+
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 32px; margin-bottom: 32px;">
+  <img src="{{ '/images/greengrid-logo.png' | relative_url }}" alt="GreenGrid Logo" style="max-width: 240px; width: 100%; height: auto;">
+</div>
 
 ## API Docs Home
 GreenGrid’s APIs help you unlock the full power of smart energy tools. Whether you’re building dashboards, syncing with smart meters, or exploring real-time usage data, our APIs provide secure, scalable access to the insights you need.
-
-Why use GreenGrid APIs?
-* Empower smarter energy use — Integrate energy-saving features into your apps and services.
-* Developer friendly — Clear endpoints, tested examples, and predictable behavior.
-* Secure and scalable — Built with modern standards and supported by our engineering team.
-
-These APIs are designed for:
-* Developers creating integrations for home energy apps
-* Enthusiasts seeking deep energy data insights
-* Utility companies deploying smart metering solutions
 
 ## GreenGrid API Docs
 

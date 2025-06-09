@@ -1,0 +1,11 @@
+---
+title: All API Documentation
+layout: default
+---
+{% for doc in site.docs %}
+  <article>
+    <h2>{{ doc.title }}</h2>
+    {{ doc.content }}
+  </article>
+  <hr>
+{% endfor %}
