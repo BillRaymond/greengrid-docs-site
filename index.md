@@ -7,7 +7,7 @@ layout: home
 > This website is a fictional project created for the [AI Workshop for Content Creators](). It was designed to demonstrate documentation best practices using synthetic examples. Learn more at [BillTalksAI.com](https://www.BillTalksAI.com).
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 32px; margin-bottom: 32px;">
-  <img src="{{ 'images/greengrid-logo.png' | relative_url }}" alt="GreenGrid Logo" style="max-width: 240px; width: 100%; height: auto;">
+  <img src="{{ 'images/GreenGrid-logo.png' | relative_url }}" alt="GreenGrid Logo" style="max-width: 240px; width: 100%; height: auto;">
 </div>
 
 ## API Docs Home
